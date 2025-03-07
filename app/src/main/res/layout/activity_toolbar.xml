@@ -11,6 +11,7 @@
         android:id="@+id/toolbar"
         android:layout_width="600dp"
         android:layout_height="?attr/actionBarSize"
+        android:layout_marginTop="30dp"
         android:background="?attr/colorPrimary"
         app:logo="@drawable/baseline_shopping_cart_24"
         app:title="Buy and Sell item"

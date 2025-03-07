@@ -20,7 +20,7 @@ class RatingBar : AppCompatActivity() {
         button.setOnClickListener{
              val totalstars="Total stars: "+simpleRatingBar.numStars
              val rating="Rating: "+simpleRatingBar.rating
-             Toast.makeText(this,""" $totalstars $rating""".trimIndent(),Toast.LENGTH_LONG).show()
+             Toast.makeText(this,"""$totalstars $rating""".trimIndent(),Toast.LENGTH_LONG).show()
         }
         simpleRating.setOnRatingBarChangeListener{ratingBar, rating, fromUser ->
             Toast.makeText(this,"rating $rating, $fromUser",Toast.LENGTH_LONG).show()

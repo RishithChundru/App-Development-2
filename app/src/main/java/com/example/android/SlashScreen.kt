@@ -15,8 +15,8 @@ class SlashScreen : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_slash_screen)
         Handler(Looper.getMainLooper()).postDelayed({
-            val i = Intent(this@SlashScreen, ScrollView::class.java);
-            startActivity(i);
+            val i = Intent(this@SlashScreen, ScrollView::class.java)
+            startActivity(i)
             finish()
             },2000)
     }

@@ -11,6 +11,7 @@
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
+        android:layout_marginTop="50dp"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="?attr/colorPrimary">
@@ -25,20 +26,26 @@
                 android:id="@+id/colorTeal"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@android:color/holo_blue_dark"
+                android:background="@color/Teal"
+                android:clickable="true"
+                android:focusable="true"
                 android:layout_margin="8dp"/>
 
             <View
                 android:id="@+id/colorRed"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@android:color/holo_red_dark"
+                android:background="@color/Red"
+                android:clickable="true"
+                android:focusable="true"
                 android:layout_margin="8dp"/>
             <View
                 android:id="@+id/colorGreen"
                 android:layout_width="50dp"
                 android:layout_height="50dp"
-                android:background="@android:color/holo_green_dark"
+                android:background="@color/Green"
+                android:clickable="true"
+                android:focusable="true"
                 android:layout_margin="8dp"/>
         </LinearLayout>
     </androidx.appcompat.widget.Toolbar>

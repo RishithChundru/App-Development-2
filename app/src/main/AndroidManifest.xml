@@ -13,20 +13,16 @@
         android:theme="@style/Theme.Android"
         tools:targetApi="31">
         <activity
-            android:name=".NotificationView"
-            android:exported="false" />
-        <activity
-            android:name=".NotificationBar"
-            android:exported="false" />
-        <activity
-            android:name=".Toolbar_change_color"
-            android:exported="true">
+            android:name=".Footer"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ScrollView"/>
+        <receiver android:name=".AlarmBroadcast"/>
     </application>
 
 </manifest>

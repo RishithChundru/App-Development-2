@@ -11,7 +11,6 @@ import androidx.core.view.WindowInsetsCompat
 class Toolbar_change_color : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        enableEdgeToEdge()
         setContentView(R.layout.activity_toolbar_change_color)
         val colorDisplay = findViewById<View>(R.id.colorDisplay)
         val colorTeal: View = findViewById(R.id.colorTeal)
@@ -29,6 +28,5 @@ class Toolbar_change_color : AppCompatActivity() {
         colorGreen.setOnClickListener {
             colorDisplay.setBackgroundColor(Color.GREEN) // Green color
         }
-
     }
 }
