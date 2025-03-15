@@ -22,6 +22,7 @@
         android:minHeight="100dp"
         android:minWidth="700dp"
         android:max="100"
+        android:scaleY="4"
         android:indeterminate="false"
         android:progress="0"/>
 

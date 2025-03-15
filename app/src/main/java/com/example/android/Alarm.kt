@@ -31,7 +31,7 @@ class Alarm : AppCompatActivity() {
 
 
         start.setOnClickListener {
-            var i = text.text.toString().toInt()
+            var i = text.toString().toInt()
             alarmManager = getSystemService(Context.ALARM_SERVICE) as AlarmManager
             alarmManager.set(AlarmManager.RTC_WAKEUP, System.currentTimeMillis()+(i*1000),pendingIntent)
             Toast.makeText(this, "Alarm set in $i seconds", Toast.LENGTH_LONG ).show()

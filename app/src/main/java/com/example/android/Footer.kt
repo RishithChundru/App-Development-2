@@ -21,7 +21,7 @@ class Footer : AppCompatActivity() {
         // adapter connects a data source to a user interface like list,spinner etc
         val mAdapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, arr)
         // Inflating the Footer file
-        val mFooter = layoutInflater.inflate(R.layout.footer, list1, false) as ViewGroup
+        val mFooter = layoutInflater.inflate(R.layout.footer, list1, false)
         // Adding the footer to the ListView
         list1.addFooterView(mFooter)
         // Setting the adapter
