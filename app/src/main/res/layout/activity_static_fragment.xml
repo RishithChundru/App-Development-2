@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".StaticFragment">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment1"
+        class="com.example.android.StaticFragment_Exone"
+        android:layout_weight="0.5"/>
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:id="@+id/View"
+        android:background="@color/Teal"
+        android:layout_weight="0.95"/>
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/fragment2"
+        class="com.example.android.StaticFragment_Extwo"
+        android:layout_weight="0.5"/>
+</LinearLayout>
